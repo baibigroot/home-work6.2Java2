@@ -1,15 +1,14 @@
 package com.company;
 
-
 public class Tickets <T extends Number> implements Airport<T> {
 
 private T passanger;
 
-    public T getPassanger() {
+    public T getPassengers() {
         return passanger;
     }
 
-    public void setPassanger(T passanger) {
+    public void setPassengers(T passanger) {
         this.passanger = passanger;
     }
 

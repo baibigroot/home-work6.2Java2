@@ -5,12 +5,12 @@ public class Main {
     public static void main(String[] args) {
 
         Tickets <Integer> tickets = new Tickets <> ();
-        tickets.setPassanger(25);
-        System.out.println(tickets.getPassanger());
+        tickets.setPassengers(25);
+        System.out.println(tickets.getPassengers());
 
         Tickets <Integer> tickets1 = new Tickets <> ();
-        tickets.setPassanger(10);
-        System.out.println(tickets1.getPassanger());
+        tickets.setPassengers(10);
+        System.out.println(tickets1.getPassengers());
 
 
     }
